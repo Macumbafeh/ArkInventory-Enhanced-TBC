@@ -1,0 +1,42 @@
+﻿## Interface: 2040
+
+## Title: ArkInventory |cffff8000Enhanced|r |cff0080ff(by fuba)|r
+## Author: fuba
+## Original-Author: Arkayenro
+## Version: 3.01.01
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: ARKINVDB
+
+## Notes: Allows viewing of your (and your alts) Bags, Keyring, Bank, Guild Bank, Inventory and Mail items when ever and where ever you want.
+## Notes-deDE: Ermöglicht das Anzeigen der Taschen, des Bankfachs, des Schlüsselbundes und des Gildentresors aller Charaktere zu jedem beliebigen Zeitpunkt.
+## Notes-zhCN: 整合并分类显示你的背包、钥匙链、银行、工会银行，支持离线查看
+## Notes-zhTW: 以分類方式顯示你的背包。
+
+## OptionalDeps: Ace3, Ace2, DewdropLib, LibPeriodicTable-3.1, LibSharedMedia-3.0, Outfitter, ItemRack, ClosetGnome
+## X-Embeds: Ace3, Ace2, DewdropLib, LibPeriodicTable-3.1, LibSharedMedia-3.0
+
+embeds.xml
+Locale\locale.xml
+
+ArkCoreScanTooltip.lua
+ArkCoreScanTooltip.xml
+
+ArkInventory.lua
+
+ArkInventoryStorage.lua
+ArkInventoryRestack.lua
+ArkInventoryUpgrades.lua
+ArkInventoryMenu.lua
+ArkInventoryRules.lua
+ArkInventorySearch.lua
+
+ArkInventoryTooltip.lua
+ArkInventoryMoney.lua
+ArkInventoryFonts.lua
+
+ArkInventory.xml
+ArkInventoryRules.xml
+ArkInventorySearch.xml
+
+ArkInventoryOptions.lua

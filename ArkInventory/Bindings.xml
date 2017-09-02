@@ -1,0 +1,36 @@
+﻿<Bindings>
+	<Binding name="ARKINV_TOGGLE_BAG" header="ARKINV">
+		ArkInventory.Frame_Main_Toggle( ArkInventory.Const.Location.Bag )
+	</Binding>
+	<Binding name="ARKINV_TOGGLE_BANK">
+		ArkInventory.Frame_Main_Toggle( ArkInventory.Const.Location.Bank )
+	</Binding>
+	<Binding name="ARKINV_TOGGLE_KEY">
+		ArkInventory.Frame_Main_Toggle( ArkInventory.Const.Location.Key )
+	</Binding>
+	<Binding name="ARKINV_TOGGLE_VAULT">
+		ArkInventory.Frame_Main_Toggle( ArkInventory.Const.Location.Vault )
+	</Binding>
+	<Binding name="ARKINV_TOGGLE_MAIL">
+		ArkInventory.Frame_Main_Toggle( ArkInventory.Const.Location.Mail )
+	</Binding>
+	<Binding name="ARKINV_TOGGLE_WEARING">
+		ArkInventory.Frame_Main_Toggle( ArkInventory.Const.Location.Wearing )
+	</Binding>
+	<Binding name="ARKINV_TOGGLE_EDIT">
+		ArkInventory.Frame_Main_Show( ArkInventory.Const.Location.Bag )
+		ArkInventory.ToggleEditMode()
+	</Binding>
+	<Binding name="ARKINV_RESTACK">
+		ArkInventory.Restack()
+	</Binding>
+	<Binding name="ARKINV_TOGGLE_RULES">
+		ArkInventory.Frame_Rules_Toggle()
+	</Binding>
+	<Binding name="ARKINV_TOGGLE_SEARCH">
+		ArkInventory.Frame_Search_Toggle()
+	</Binding>
+	<Binding name="ARKINV_CONFIG">
+		ArkInventory.Lib.Dialog:Open( ArkInventory.Const.Frame.Options.Internal )
+	</Binding>
+</Bindings>

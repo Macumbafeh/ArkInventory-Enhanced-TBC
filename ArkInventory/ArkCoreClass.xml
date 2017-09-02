@@ -1,0 +1,107 @@
+﻿<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/..\FrameXML\UI.xsd">
+
+
+	<GameTooltip virtual="true" name="ARKCORE_Template_ScanTooltip" inherits="GameTooltipTemplate">
+		<Scripts>
+			<Onload>
+				this:SetOwner( UIParent, "ANCHOR_NONE" )
+			</Onload>
+		</Scripts>
+	</GameTooltip>
+
+	
+	
+	<!-- FONTS -->
+	
+	<Font virtual="true" name="ARKINV_GameFontNormal" font="Fonts\FRIZQT__.TTF" outline="NORMAL">
+		<FontHeight>
+			<AbsValue val="12" />
+		</FontHeight>
+		<Color r="1.0" g="0.82" b="0"/>
+	</Font>
+
+	<Font virtual="true" name="ARKINV_GameFontHighlight" inherits="ARKINV_GameFontNormal" outline="NORMAL">
+		<Color r="1.0" g="1.0" b="1.0" />
+	</Font>
+
+	
+	<Font virtual="true" name="ARKINV_GameFontDisable" inherits="ARKINV_GameFontNormal" outline="NORMAL">
+		<Color r="0.5" g="0.5" b="0.5" />
+	</Font>
+
+	
+	<Font virtual="true" name="ARKINV_GameFontNormalSmall" inherits="ARKINV_GameFontNormal" font="Fonts\FRIZQT__.TTF" outline="NORMAL">
+		<FontHeight>
+			<AbsValue val="10" />
+		</FontHeight>
+	</Font>
+
+	<Font virtual="true" name="ARKINV_GameFontNormalLarge" inherits="ARKINV_GameFontNormal" font="Fonts\FRIZQT__.TTF" outline="NORMAL">
+		<FontHeight>
+			<AbsValue val="16" />
+		</FontHeight>
+	</Font>
+
+	<Font virtual="true" name="ARKINV_GameFontNormalHuge" inherits="ARKINV_GameFontNormal" font="Fonts\FRIZQT__.TTF" outline="NORMAL">
+		<FontHeight>
+			<AbsValue val="20" />
+		</FontHeight>
+	</Font>
+	
+	<Font virtual="true" name="ARKINV_NewItemFont" font="Fonts\ARIALN.TTF" outline="NORMAL">
+		<FontHeight>
+			<AbsValue val="11" />
+		</FontHeight>
+		<Color r="1" g="1" b="1" />
+	</Font>
+
+	<Font virtual="true" name="ARKINV_TableRowFont" inherits="ARKINV_GameFontNormal" font="Fonts\FRIZQT__.TTF" outline="NORMAL">
+		<FontHeight>
+			<AbsValue val="14" />
+		</FontHeight>
+	</Font>
+
+	<Font virtual="true" name="ARKINV_DataEntryFont" inherits="ARKINV_GameFontNormal" font="Fonts\FRIZQT__.TTF" outline="NORMAL">
+		<FontHeight>
+			<AbsValue val="14" />
+		</FontHeight>
+		<Color r="1" g="1" b="1" />
+	</Font>
+
+	<Font virtual="true" name="ARKINV_DataEntryLabelFont" inherits="ARKINV_DataEntryFont" outline="NORMAL">
+		<Color r="0" g="1" b="0" />
+	</Font>
+
+	<Font virtual="true" name="ARKINV_DataEntryFontDisable" inherits="ARKINV_TableRowFont" outline="NORMAL">
+		<Color r="0.5" g="0.5" b="0.5" />
+	</Font>
+
+
+<!-- TEXTURES -->
+
+	<Texture virtual="true" name="ARKINV_TextureUnknown" file="Interface\Icons\INV_Misc_QuestionMark" />
+
+	
+	<Texture virtual="true" name="ARKINV_TextureHighlight" hidden="true">
+	
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="$parent" relativePoint="TOPLEFT" />
+			<Anchor point="BOTTOMRIGHT" relativeTo="$parent" relativePoint="BOTTOMRIGHT" />
+		</Anchors>
+		
+		<Color r="1" g="1" b="0" a="0.2" />
+		
+	</Texture>
+
+	
+	<Texture virtual="true" name="ARKINV_TextureSelected" inherits="ARKINV_TextureHighlight" hidden="true">
+		<Color r="1" g="1" b="1" a="0.2" />
+	</Texture>
+
+
+	<Texture virtual="true" name="ARKINV_TextureTransparent" inherits="ARKINV_TextureHighlight">
+		<Color r="0" g="0" b="0" a="0" />
+	</Texture>
+	
+
+</Ui>
